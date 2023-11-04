@@ -20,7 +20,7 @@ export const Header = () => {
             <div className="header-left-container">
                 <div className="header-top-profile-container">
                     <div className="header-photo-container">
-                        <img src="public/images/photo-vanessa.jpeg" className="header-photo" alt="Vanessa's photo"/>
+                        <img src="/images/photo-vanessa.jpeg" className="header-photo" alt="Vanessa's photo"/>
                     </div>
                     <div className="header-stack-container">
                         <h2 className="name">{name}</h2>
