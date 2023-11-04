@@ -32,9 +32,9 @@ export const Header = () => {
                     <p>{aboutMeText}</p>
                 </div>
                 <div className="header-icons">
-                        <a target="_blank" href="https://www.linkedin.com/in/arrudavanessa/"><img src={linkedIn} alt="LinkedIn logo"/></a>
-                        <a target="_blank" href="https://github.com/vanessa-arruda/"><img src={gitHub} alt="GitHub logo"/></a>
-                        <a target="_blank" href="https://stackoverflow.com/users/13029438/vanessa-arruda"><img src={stackOverFlow} alt="Stack Overflow logo"/></a>
+                    <a target="_blank" href="https://www.linkedin.com/in/arrudavanessa/"><img src={linkedIn} alt="LinkedIn logo" width="30px"/></a>
+                    <a target="_blank" href="https://github.com/vanessa-arruda/"><img src={gitHub} alt="GitHub logo" width="30px"/></a>
+                    <a target="_blank" href="https://stackoverflow.com/users/13029438/vanessa-arruda"><img src={stackOverFlow} alt="Stack Overflow logo" width="30px"/></a>
                 </div>
             </div>
             <div className="header-right-container"></div>

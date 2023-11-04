@@ -5,7 +5,232 @@ body{
   font-family: Helvetica, sans-serif;
 }
 
-@media screen and (max-width: 768px){
+@media screen and (max-width: 576px){
+
+  /* Header - Profile Section */
+
+  .header-all-container{
+    display: flex;
+    justify-content: center;
+  }
+
+  .header-right-container {
+    display: none;
+  }
+
+  .header-left-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 16px;
+  }
+
+  .header-top-profile-container{
+    display: flex;
+    flex-direction: column;
+    min-width: 100%;
+    }
+
+  .header-photo-container{
+    margin-top: 40px;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    }
+
+  .header-stack-container{
+    margin-top: 24px;
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+  }
+
+  .name{
+  color:rgb(118, 63, 182);
+  margin: 0;
+  padding: 8px 0;
+  font-size: 32px;
+  }
+   
+  .job-title{
+    margin: 0;
+    color:#414141;
+  }
+  
+  .job-skills{
+    color:#949494;
+    margin: 0;
+    padding-top: 8px;
+  }
+
+  .header-photo{
+  width: 164px;
+  border-radius: 164px;
+  border: 5px solid #fff;
+  }
+
+  .header-paragraph-container{
+    flex-wrap: wrap;
+    text-align: justify;
+    margin-top: 24px;
+  }
+
+  .header-paragraph-container p{
+    font-size: 20px;
+  }
+
+  /* buttons */
+  .header-icons{
+    margin: 24px 0;
+    display: flex;
+    justify-content: space-evenly;
+    gap: 12px;
+    min-width: 100%;
+  }
+
+  a:hover{
+    cursor: pointer;
+  }
+
+  /* Tech Skills section */
+  .techSkills-container{
+    display: flex;
+    flex-direction: column;
+    margin: 12px 0;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(234, 229, 235);
+  }
+
+  .techSkills-title{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 40%;
+    font-size: 28px;
+    color: #7c47c7;
+  }
+
+  .techSkills-list {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 5px;
+    width: 85%;
+    align-items: center;
+    color: #000000;
+    font-size: 22px;
+    margin-bottom: 38px;
+  }
+
+  .techSkills-list span{
+    padding: 4px;
+  }
+
+  .js-bg{
+    background-color: rgb(103, 126, 215);
+    color: #fff;
+    text-align: center;
+  }
+
+  .react-bg{
+    background-color: rgb(255, 161, 129);
+    color: #fff;
+    text-align: center;
+  }
+
+  .git-bg{
+    background-color: rgb(100, 203, 133);
+    color: #fff;
+    text-align: center;
+  }
+
+  .node-bg{
+    background-color: rgb(125, 201, 255);
+    color: #fff;
+    text-align: center;
+  }
+
+  /* Project section */
+
+  .project-all-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 40px 0;
+  }
+
+  .project-title-container{
+    display: flex;
+    justify-content: center;
+    margin-top: 44px;
+    font-size: 24px;
+  }
+
+  .project-img-container{
+    display: flex;
+    justify-content: center;
+    width: 80%;
+  }
+
+  .project-img{
+    max-width: 70%;
+    max-height: 70%;
+  }
+
+  .project-content-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:center;
+    flex-wrap: wrap;
+    margin: 12px;
+  }
+
+  .project-content-container h3{
+    font-size: 28px;
+  }
+
+  .project-content-container p{
+    margin: 10px 50px;
+    font-size: 20px;
+    text-align: justify;
+  }
+  .project-skills-container{
+    display: flex;
+    justify-content: space-between;
+    font-size: 20px;
+  }
+  .project-skills{
+    color: #434343;
+    padding: 10px;
+    font-weight: 600;
+  }
+  .project-btns{
+    display: flex;
+    gap: 20px;
+    padding: 16px;
+  }
+  .demo-btn,
+  .repo-btn{
+    border-radius: 20px;
+    border: none;
+    background-color: #7c47c7;
+    color: #fff;
+    padding: 16px;
+    gap: 8px;
+    cursor: pointer;
+    font-size: 16px;
+  }
+
+  .demo-btn:hover,
+  .repo-btn:hover{
+    background-color: #ce81e9;
+  }
+}
+
+@media screen and (min-width: 577px){
 
   /* Header - Profile Section */
 
