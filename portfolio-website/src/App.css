@@ -1,10 +1,18 @@
 /* fonts */
 @import url('https://fonts.googleapis.com/css2?family=Libre+Franklin:wght@100;400;600;700&display=swap');
 /* general */
+
 *{
     font-family: 'Libre Franklin', sans-serif;
     margin: 0;
     font-weight: 100;
+}
+
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
 }
 
 html{
