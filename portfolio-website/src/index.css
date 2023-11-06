@@ -226,7 +226,7 @@ body{
   }
 
   .project-content-container h3{
-    font-size: 28px;
+    font-size: 24px;
   }
 
   .project-content-container p{
@@ -237,6 +237,7 @@ body{
   .project-skills-container{
     display: flex;
     justify-content: space-between;
+    flex-wrap: wrap;
     font-size: 20px;
   }
   .project-skills{
@@ -456,6 +457,7 @@ body{
   .project-skills-container{
     display: flex;
     justify-content: space-between;
+    flex-wrap: wrap;
   }
   .project-skills{
     color: #434343;
@@ -711,6 +713,7 @@ body{
   .project-skills-container{
     display: flex;
     justify-content: start;
+    flex-wrap: wrap;
   }
   .project-skills{
     color: #434343;

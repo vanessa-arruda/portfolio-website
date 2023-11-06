@@ -45,7 +45,7 @@
       {
         name:"Project Happy Thoughts", 
         id:5, 
-        skills:["HTML", "CSS", "JavaScript", "API", "React", "Node.js"],
+        skills:["HTML", "CSS", "JavaScript", "API", "React, Node.js"],
         img: "/projects-ss/project-happy-thoughts.jpeg",
         demo_link: "https://stirring-pudding-ff101e.netlify.app/",
         repository_link: "https://github.com/vanessa-arruda/project-happy-thoughts-vite",
@@ -61,7 +61,7 @@
         description: "Quick and simple landing page project built only with HTML and CSS but using responsive design."
       },
       {
-        name:"Rock, Paper, Scissors Game", 
+        name:"Rock-Paper-Scissors Game", 
         id:7, 
         skills:["HTML", "CSS", "JavaScript"],
         img: "/projects-ss/project-rock-paper-scissors.jpeg",
