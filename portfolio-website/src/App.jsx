@@ -45,7 +45,7 @@
       {
         name:"Project Happy Thoughts", 
         id:5, 
-        skills:["HTML", "CSS", "JavaScript", "API", "React, Node.js"],
+        skills:["HTML", "CSS", "JavaScript", "API", "React", "Node.js"],
         img: "/projects-ss/project-happy-thoughts.jpeg",
         demo_link: "https://stirring-pudding-ff101e.netlify.app/",
         repository_link: "https://github.com/vanessa-arruda/project-happy-thoughts-vite",
