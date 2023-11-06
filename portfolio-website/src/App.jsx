@@ -52,15 +52,6 @@
         description: "Project to post and get thoughts using API and React simulating a simple version of Social Media interaction."
       },
       {
-        name:"Fitness Landing Page", 
-        id:6, 
-        skills:["HTML", "CSS"],
-        img: "/projects-ss/project-landing-page.jpeg",
-        demo_link: "https://vanessa-arruda.github.io/fitness-landing-page/",
-        repository_link: "https://github.com/vanessa-arruda/fitness-landing-page",
-        description: "Quick and simple landing page project built only with HTML and CSS but using responsive design."
-      },
-      {
         name:"Rock-Paper-Scissors Game", 
         id:7, 
         skills:["HTML", "CSS", "JavaScript"],
@@ -70,6 +61,16 @@
         description: "Simple Rock, Paper, Scissors game to play against the computer, built using JavaScript and DOM manipulation."
       }
     ];
+
+    // {
+    //   name:"Fitness Landing Page", 
+    //   id:6, 
+    //   skills:["HTML", "CSS"],
+    //   img: "/projects-ss/project-landing-page.jpeg",
+    //   demo_link: "https://vanessa-arruda.github.io/fitness-landing-page/",
+    //   repository_link: "https://github.com/vanessa-arruda/fitness-landing-page",
+    //   description: "Quick and simple landing page project built only with HTML and CSS but using responsive design."
+    // },
 
     return (
         <>
