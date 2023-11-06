@@ -1,6 +1,7 @@
   import { TechSkills } from "./components/TechSkills"
   import { Header } from "./components/Header"
   import { Project } from "./components/Project"
+  import { Footer } from "./components/Footer"
 
   export const App = () => {
 
@@ -26,7 +27,7 @@
       {
         name:"Project Weather App", 
         id:3, 
-        skills:["HTML", "CSS", "JavaScript", "API"],
+        skills:["HTML", "CSS", "JavaScript", "API", "Figma"],
         img: "/projects-ss/project-weather-app.jpeg",
         demo_link: "https://lively-gecko-369536.netlify.app/",
         repository_link: "https://github.com/vanessa-arruda/project-weather-app",
@@ -37,9 +38,36 @@
         id:4, 
         skills:["HTML", "CSS", "JavaScript", "API"],
         img: "/projects-ss/project-sort-list.jpeg",
-        demo_link: "https://app.netlify.com/sites/dancing-pixie-e86b2b/",
+        demo_link: "https://dancing-pixie-e86b2b.netlify.app/",
         repository_link: "https://github.com/vanessa-arruda/project-library",
         description: "Built a digital library, using an array of data collection of Pokemon, allowing user to search, sort and filter the cards displayed."
+      },
+      {
+        name:"Project Happy Thoughts", 
+        id:5, 
+        skills:["HTML", "CSS", "JavaScript", "API", "React", "Node.js"],
+        img: "/projects-ss/project-happy-thoughts.jpeg",
+        demo_link: "https://stirring-pudding-ff101e.netlify.app/",
+        repository_link: "https://github.com/vanessa-arruda/project-happy-thoughts-vite",
+        description: "Project to post and get thoughts using API and React simulating a simple version of Social Media interaction."
+      },
+      {
+        name:"Fitness Landing Page", 
+        id:6, 
+        skills:["HTML", "CSS"],
+        img: "/projects-ss/project-landing-page.jpeg",
+        demo_link: "https://vanessa-arruda.github.io/fitness-landing-page/",
+        repository_link: "https://github.com/vanessa-arruda/fitness-landing-page",
+        description: "Quick and simple landing page project built only with HTML and CSS but using responsive design."
+      },
+      {
+        name:"Rock, Paper, Scissors Game", 
+        id:7, 
+        skills:["HTML", "CSS", "JavaScript"],
+        img: "/projects-ss/project-rock-paper-scissors.jpeg",
+        demo_link: "https://vanessa-arruda.github.io/rock-paper-scissors/",
+        repository_link: "https://github.com/vanessa-arruda/rock-paper-scissors",
+        description: "Simple Rock, Paper, Scissors game to play against the computer, built using JavaScript and DOM manipulation."
       }
     ];
 
@@ -48,6 +76,7 @@
             <Header/>
             <TechSkills/>
             <Project data={projectsList}/>
+            <Footer/>
         </>
     )
   }

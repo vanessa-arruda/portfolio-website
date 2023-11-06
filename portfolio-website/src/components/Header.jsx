@@ -30,6 +30,7 @@ export const Header = () => {
                 </div>
                 <div className="header-paragraph-container">
                     <p>{aboutMeText}</p>
+                    <div className="animation-container"></div>
                 </div>
                 <div className="header-icons">
                     <a target="_blank" href="https://www.linkedin.com/in/arrudavanessa/"><img src={linkedIn} alt="LinkedIn logo" width="30px"/></a>
@@ -37,7 +38,7 @@ export const Header = () => {
                     <a target="_blank" href="https://stackoverflow.com/users/13029438/vanessa-arruda"><img src={stackOverFlow} alt="Stack Overflow logo" width="30px"/></a>
                 </div>
             </div>
-            <div className="header-right-container"></div>
+            
         </div>
     )
 };
