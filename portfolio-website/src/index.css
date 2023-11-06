@@ -17,6 +17,43 @@ body{
   min-width: 100%;
   gap: 12px;
 }
+
+.portfolio-section-container{
+  display: flex;
+  background-color: #414141;
+  color: #ffff;
+  font-size: 18px;
+  margin: 0;
+}
+
+.portfolio-section-sub-container{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 12px 36px 36px 36px;
+  gap: 12px;
+}
+
+.portfolio-section-sub-container h3{
+  font-size: 28px;
+}
+
+.portfolio-section-sub-container p{
+  font-size: 18px;
+  text-align: justify;
+}
+
+
+.portfolio-repo-btn{
+  border: none;
+  background-color: #db84d1;
+  color: #fff;
+  padding: 18px;
+  gap: 8px;
+  cursor: pointer;
+  font-size: 18px;
+}
+
 .footer-container a{
   text-decoration: none;
   color:#f2f2f2;
@@ -129,7 +166,7 @@ body{
   .techSkills-container{
     display: flex;
     flex-direction: column;
-    margin: 12px 0;
+    margin: 12px 0 0 0;
     justify-content: center;
     align-items: center;
     background-color: rgb(234, 229, 235);
@@ -358,7 +395,7 @@ body{
   /* Tech Skills section */
   .techSkills-container{
     display: flex;
-    margin: 12px 0;
+    margin: 12px 0 0 0;
     justify-content: center;
     background-color: rgb(234, 229, 235);
   }
@@ -602,7 +639,7 @@ body{
   /* Tech Skills section */
   .techSkills-container{
     display: flex;
-    margin: 12px 0;
+    margin: 12px 0 0 0;
     justify-content: center;
     background-color: rgb(234, 229, 235);
     min-height: 500px;
