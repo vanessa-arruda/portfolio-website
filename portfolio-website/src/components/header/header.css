@@ -69,7 +69,7 @@ a:hover{
 
     /* Header - Profile Section */
     .header-photo-container{
-      margin-top: 18px;
+      margin-top: 28px;
       }
     .header-photo{
     width: 164px;
@@ -89,10 +89,10 @@ a:hover{
     }
 
     .header-paragraph-container{
-        margin: 12px 20px;
+        margin: 12px 36px;
     }
     .header-paragraph-container p{
-        font-size: 18px;
+        font-size: 20px;
         width: 100%;
     }
 }
