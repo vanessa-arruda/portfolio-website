@@ -1,7 +1,7 @@
   import { TechSkills } from "./components/TechSkills"
-  import { Header } from "./components/Header"
+  import { Header } from "./components/header/Header"
   import { Project } from "./components/Project"
-  import { Footer } from "./components/Footer"
+  import { Footer } from "./components/footer/Footer"
   import { Portfolio } from "./components/PortfolioSection"
 
   export const App = () => {
@@ -14,7 +14,7 @@
         img: "/projects-ss/project-survey.jpeg",
         demo_link: "https://darling-unicorn-fd946d.netlify.app",
         repository_link: "https://github.com/vanessa-arruda/project-survey",
-        description: "A questionaire project using React state and controlled forms by making a Typeform-like product.",
+        description: "A questionaire project using React state and controlled forms by making a Typeform-like product. This project was done in pair-programming.",
       },
       {
         name:"Project Music Releases", 
