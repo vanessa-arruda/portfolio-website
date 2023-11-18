@@ -17,12 +17,12 @@ body{
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin: 12px 36px 36px 36px;
-  gap: 12px;
+  margin: 24px 80px;
+  gap: 8px;
 }
 
 .portfolio-section-sub-container h3{
-  font-size: 28px;
+  font-size: 32px;
 }
 
 .portfolio-section-sub-container p{
@@ -47,6 +47,7 @@ body{
   gap: 8px;
   cursor: pointer;
   font-size: 18px;
+  margin-bottom: 12px;
 }
 
 
@@ -77,7 +78,7 @@ body{
       align-items: center;
       color: #000000;
       font-size: 26px;
-      margin: 12px;
+      margin: 32px;
     }
   
     .techSkills-list span{
@@ -320,63 +321,6 @@ body{
 }
 
 @media screen and (min-width: 577px){
-  /* Tech Skills section */
-  .techSkills-container{
-    display: flex;
-    margin: 12px 0 0 0;
-    justify-content: center;
-    background-color: rgb(234, 229, 235);
-  }
-
-  .techSkills-title{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 40%;
-    font-size: 28px;
-    color: #7c47c7;
-  }
-
-  .techSkills-list {
-    display: flex;
-    justify-content: space-between;
-    flex-wrap: wrap;
-    gap: 5px;
-    width: 60%;
-    align-items: center;
-    color: #000000;
-    font-size: 18px;
-    margin: 12px;
-  }
-
-  .techSkills-list span{
-    padding: 10px;
-  }
-
-  .js-bg{
-    background-color: rgb(103, 126, 215);
-    color: #fff;
-    text-align: center;
-  }
-
-  .react-bg{
-    background-color: rgb(255, 161, 129);
-    color: #fff;
-    text-align: center;
-  }
-
-  .git-bg{
-    background-color: rgb(100, 203, 133);
-    color: #fff;
-    text-align: center;
-  }
-
-  .node-bg{
-    background-color: rgb(125, 201, 255);
-    color: #fff;
-    text-align: center;
-  }
-
   /* Project section */
 
   .project-all-container{
@@ -399,10 +343,6 @@ body{
   .project-img{
     max-width: 90%;
     max-height: 90%;
-    box-shadow: 10px 5px 5px #7e7e7e;
-  }
-  .project-img:hover{
-    filter: brightness(75%);
     box-shadow: 10px 5px 5px #7e7e7e;
   }
 
@@ -433,20 +373,5 @@ body{
     display: flex;
     gap: 20px;
     padding: 12px;
-  }
-  .demo-btn,
-  .repo-btn{
-    border-radius: 20px;
-    border: none;
-    background-color: #7c47c7;
-    color: #fff;
-    padding: 8px;
-    gap: 8px;
-    cursor: pointer;
-  }
-
-  .demo-btn:hover,
-  .repo-btn:hover{
-    background-color: #ce81e9;
   }
 }
