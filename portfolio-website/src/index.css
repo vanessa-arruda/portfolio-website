@@ -16,7 +16,7 @@ body{
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin: 24px 36px;
+  margin: 24px 28px;
   gap: 8px;
 }
 
@@ -30,8 +30,7 @@ body{
 }
 
 .special-text{
-  color:#9bcdff;
-  font-weight: 300;
+  color:#60acf9;
 }
 
 .version-text{
@@ -257,7 +256,7 @@ body{
   /* Portfolio section */
 
   .portfolio-section-sub-container p{
-    font-size: 16px;
+    font-size: 18px;
     font-weight: 300;
   }
 

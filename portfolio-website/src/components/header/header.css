@@ -55,7 +55,7 @@
 }
 /* buttons */
 .header-icons{
-    margin: 24px 0;
+    margin: 36px 0;
     display: flex;
     justify-content: space-evenly;
     gap: 12px;
@@ -93,7 +93,7 @@ a:hover{
     }
 
     .header-paragraph-container{
-        margin: 12px 28px;
+        margin: 16px 18px;
     }
     .header-paragraph-container p{
         font-size: 24px;

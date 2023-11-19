@@ -6,8 +6,8 @@ export const Portfolio = () => {
     with the focus of putting in practice new libraries / frameworks.`;
 
     const specialText = "/*I'm testing new things ALL THE TIME*/";
-    const currentVersionComment = `Right now I am refactoring all CSS @media screen as I was testing some aspects about mobile first and 
-    multiple screen sizes approach deeply. And improving the code in a scenario of scalability.`;
+    const currentVersionComment = `Right now, I am refactoring all CSS @media screen as I was testing some aspects about mobile first and 
+    multiple screen sizes approach deeply, improving the code for a simulation of scalability.`;
 
     const portfolioP2 = `But this is also my playground, for exercising best practices and new learns, so it will have sections being 
     refactored completely in order to achieve more efficiency or better results. Side effect: It will constantly improve! 

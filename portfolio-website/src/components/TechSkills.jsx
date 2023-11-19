@@ -24,13 +24,13 @@ export const TechSkills = () => {
     ];
 
     return (
-        <div className="techSkills-container">
+        <section className="techSkills-container">
             <div className="techSkills-title"><h1>Tech</h1></div>
             <div className="techSkills-list">
                 {mySkills.map((skill) => (
                 <span key={skill.skill} className={skill.style}>{skill.skill}</span>
                 ))}
             </div>
-        </div>
+        </section>
     )
 };
