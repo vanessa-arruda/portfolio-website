@@ -23,9 +23,9 @@ export const Project = (projects) => {
     ));
 
     return (
-        <div>
+        <section>
             <div className="project-title-container"><h1>{projectTitle}</h1></div>
             <div>{projectsData}</div>
-        </div>
+        </section>
     )
 }

@@ -68,6 +68,10 @@ a:hover{
 @media screen and (max-width: 576px){
 
     /* Header - Profile Section */
+
+    .header-main-container{
+        margin: 36px 16px;
+    }
     .header-photo-container{
       margin-top: 28px;
       }
@@ -89,10 +93,10 @@ a:hover{
     }
 
     .header-paragraph-container{
-        margin: 12px 36px;
+        margin: 12px 28px;
     }
     .header-paragraph-container p{
-        font-size: 20px;
+        font-size: 24px;
         width: 100%;
     }
 }

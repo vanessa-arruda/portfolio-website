@@ -17,7 +17,7 @@ export const Portfolio = () => {
     const repoUrl = "https://github.com/vanessa-arruda/portfolio-website";
 
     return (
-        <div className="portfolio-section-container">
+        <section className="portfolio-section-container">
             <div className="portfolio-section-sub-container">
                 <h3>About this Portfolio</h3>
                 <p>{portfolioP1}</p>
@@ -26,6 +26,6 @@ export const Portfolio = () => {
                 <p>{portfolioP2}</p>
                 <a target="_blank" href={repoUrl}><button className="portfolio-repo-btn" formTarget="_blank">View the code</button></a>
             </div>
-        </div>
+        </section>
     )
 }

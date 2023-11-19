@@ -18,7 +18,7 @@ export const Header = () => {
     digital experiences.`;
 
     return (
-        <div className="header-main-container">
+        <header className="header-main-container">
             <div className="header-top-profile-container">
                 <div className="header-photo-container">
                     <img src="/images/photo-vanessa.jpeg" className="header-photo" alt="Vanessa's photo"/>
@@ -38,6 +38,6 @@ export const Header = () => {
                 <a target="_blank" href="https://github.com/vanessa-arruda/"><img src={gitHub} alt="GitHub logo" width="30px"/></a>
                 <a target="_blank" href="https://stackoverflow.com/users/13029438/vanessa-arruda"><img src={stackOverFlow} alt="Stack Overflow logo" width="30px"/></a>
             </div>
-        </div>
+        </header>
     )
 };
