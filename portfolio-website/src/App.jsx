@@ -8,6 +8,15 @@
 
     const projectsList = [
       {
+        name:"Project Movie (mDB API)", 
+        id:8, 
+        skills:["HTML", "CSS", "JavaScript", "API", "React"],
+        img: "/projects-ss/project-movie-mdb.jpeg",
+        demo_link: "https://project-mdbmovie.netlify.app/",
+        repository_link: "https://github.com/vanessa-arruda/project-movies-vite",
+        description: "A website project using React and working with mDB API different endpoints and properties. This project was done in pair-programming.",
+      },
+      {
         name:"Project Survey", 
         id:1, 
         skills:["HTML", "CSS", "JavaScript", "React"],
