@@ -6,16 +6,16 @@ import "../header/header.css"
 export const Header = () => {
 
     const name = "Vanessa Arruda";
-    const jobTitle = "Front-End Developer";
-    const mainJobSkill = "+ JavaScript | React | Node JS";
+    const jobTitle = "Fullstack Developer";
+    const mainJobSkill = "JavaScript | React | Node JS | Python";
     const aboutMeText = `
-    I'm a Front-End Developer bringing a unique perspective to the world of 
-    Web development. With strong sales background, I've sharpened communication 
-    problem-solving/solution-oriented skills, team working and leadership, 
-    which I now seamlessly integrate into my tech journey.
-    With focus in acquiring a strong foundation in my tech skills, 
-    I'm excited to contribute to innovative projects and create meaningful 
-    digital experiences.`;
+    I'm a Fullstack Developer bringing creativity and passion to the world of 
+    Web development. I started as a self-taught developer in 2023 and found complete
+    passion in creating new solutions, and working in each project I've done so far. This passion led me to gain
+    a scholarship for a Bootcamp course at Technigo in JavaScript & React. During this time I also studied the IBM
+    Frontend Web Development course for 3 months, graduating in both courses with maximum grade level.
+    Now enrolled in an Advanced IT course in Backend with Python, I'm excited to contribute to innovative projects and create meaningful 
+    digital experiences, using all the recent technologies.`;
 
     return (
         <header className="header-main-container">

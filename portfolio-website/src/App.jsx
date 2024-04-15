@@ -8,6 +8,15 @@
 
     const projectsList = [
       {
+        name:"Project Recycle App", 
+        id:9, 
+        skills:["HTML", "CSS", "JavaScript", "API", "React", "Redux"],
+        img: "/projects-ss/recycle-app.jpeg",
+        demo_link: "https://realcycle.netlify.app",
+        repository_link: "https://github.com/vanessa-arruda/technigo-final-project",
+        description: "Technigo Final project, done in pairs, using React and Redux. The objective was to create an app that would solve one of the 2030 Agenda to solve world's problems. The app/website is only a prototype, the brands are not real partners, having no compromisse or any relation with the website, as the program does not exist in reality having just learning purpose. The idea was an app where the users can accumulate points for each recycled items and challenges, that could be later on exchanged with partners per rewards.",
+      },
+      {
         name:"Project Movie (mDB API)", 
         id:8, 
         skills:["HTML", "CSS", "JavaScript", "API", "React"],
@@ -86,7 +95,7 @@
         <>
             <Header/>
             <TechSkills/>
-            <Portfolio/>
+            {/* <Portfolio/> */}
             <Project data={projectsList}/>
             <Footer/>
         </>

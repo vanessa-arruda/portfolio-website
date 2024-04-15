@@ -20,7 +20,11 @@ export const TechSkills = () => {
         {skill:"Pair-programming", style:"std-bg"},
         {skill:"Figma", style:"std-bg"},
         {skill:"Vite", style:"std-bg"},
-        {skill:"Node.js", style:"node-bg"}
+        {skill:"Node.js", style:"node-bg"},
+        {skill:"Python", style:"js-bg"},
+        {skill:"MongoDB", style:"git-bg"},
+        {skill:"MySQL", style:"std-bg"}
+        
     ];
 
     return (

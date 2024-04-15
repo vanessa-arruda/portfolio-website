@@ -1,4 +1,4 @@
-
+// section currently being updated
 export const Portfolio = () => {
 
     const portfolioP1 = `I have decided to create this portfolio to showcase my recent projects,
