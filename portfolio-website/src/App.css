@@ -1,73 +1,28 @@
-/* fonts */
-@import url('https://fonts.googleapis.com/css2?family=Libre+Franklin:wght@100;400;600;700&display=swap');
-/* general */
-
-*{
-    font-family: 'Libre Franklin', sans-serif;
-    margin: 0;
-    font-weight: 100;
-}
-
 #root {
   max-width: 1280px;
   margin: 0 auto;
-  padding: 2rem;
   text-align: center;
 }
 
-html{
-    height: 100%;
+.main-top-container{
+    display: grid;
+    grid-template-columns: 35% 65%;
+    margin: 0;
+    padding: 0;
 }
-/*animation */
-body{
-    background: linear-gradient(-45deg, #f1977b,#ed70a0,#5c4cb7,#5bc7ef, #72eed1, #de5d8f, #f1977b);
-    background-size: 400% 400%;
-    animation: gradient 15s ease infinite;
-    position: absolute;
-}
-@keyframes gradient {
-    0% {
-        background-position: 0% 50%;
-    }
 
-    50% {
-        background-position: 100% 50%;
-    }
-
-    100% {
-        background-position: 0% 50%;
-    }
+.left-container, .right-container{
+    margin: 0;
+    padding: 0;
 }
+
 #top-container{
     display: flex;
     justify-content: center;
     align-content: center;
-    margin-top: 12%;
-    padding-bottom: 90px;
 }
 
-#name{
-    padding-top: 150px;
-    font-size: 42px;
-    font-weight: 400;
-    color: #fff;
-}
-
-#programmer{
-    text-align: center;
-    color: #fff;
-}
 /* main body */
-
-#body-container{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin-top: 20%;
-    background-color: #fff;
-    padding-top: 10px;
-    gap: 10px;
-}
 
 .text-body-container{
     display: flex;
@@ -78,15 +33,24 @@ body{
     gap: 10px;
     margin-bottom: 50px;
 }
+/* theme light/dark control */
+.theme-container{
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+    align-items: center;
+    position: fixed;
+    padding: 8px;
+    top: 0;
+    right: 0;
+}
 
-#body-container h2{
-    padding-top: 50px;
-    font-weight: 600;
-    font-size: 30px;
+.light-btn,
+.dark-btn {
+    width: 25px;
+    height: auto;
 }
-h2{
-    margin-bottom: 15px;
-}
+/* theme control ends */
 
 #long-text{
     text-align:justify;
@@ -166,3 +130,24 @@ ul{
         font-size: 24px;
     };
 }
+
+/*animation */
+/* body{
+    background: linear-gradient(-45deg, #f1977b,#ed70a0,#5c4cb7,#5bc7ef, #72eed1, #de5d8f, #f1977b);
+    background-size: 400% 400%;
+    animation: gradient 15s ease infinite;
+    position: absolute;
+}
+@keyframes gradient {
+    0% {
+        background-position: 0% 50%;
+    }
+
+    50% {
+        background-position: 100% 50%;
+    }
+
+    100% {
+        background-position: 0% 50%;
+    }
+} */

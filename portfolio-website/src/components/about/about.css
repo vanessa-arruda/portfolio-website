@@ -1,10 +1,19 @@
+/* google font Megrim - 400 */
+@import url('https://fonts.googleapis.com/css2?family=Megrim&display=swap');
+/* google font Inter - 100 to 900*/
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Megrim&display=swap');
+
 .header-main-container{
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin: 16px;
+    color: #fff;
+    background-color: #003f5f;
+    margin: 48px 0px;
 }
+
+
 .header-top-profile-container{
     display: flex;
     flex-direction: column;
@@ -16,54 +25,32 @@
     display: flex;
     justify-content: center;
 }
-.header-stack-container{
-    margin-top: 24px;
-    display: flex;
-    flex-direction: column;
-    align-items:center;
-}
-.name{
-    color:rgb(118, 63, 182);
-    margin: 0;
-    padding: 8px 0;
-    font-size: 32px;
-}
-.job-title{
-    margin: 0;
-    color:#414141;
-}
-.job-skills{
-    color:#949494;
-    margin: 0;
-    padding-top: 8px;
-}
+
 .header-photo{
     width: 246px;
-    border-radius: 246px;
-    border: 5px solid #fff;
+    border: 8px solid #fff;
 }
-.header-paragraph-container{
+.about-text-container{
     display: flex;
     flex-wrap: wrap;
-    margin: 24px 100px 12px 100px;
+    margin: 48px;
     justify-content: center;
 }
-.header-paragraph-container p{
-    font-size: 20px;
+
+.about-text-container h2{
+    font-size: 28px;
+    text-align: center;
+    width: 100%;
+    font-family: "Megrim", system-ui;
+}
+.about-text-container p{
+    font-size: 16px;
     text-align: justify;
     width: 100%;
+    font-family: "Inter", sans-serif;;
+    font-weight: 300;
 }
-/* buttons */
-.header-icons{
-    margin: 36px 0;
-    display: flex;
-    justify-content: space-evenly;
-    gap: 12px;
-    min-width: 80%;
-}
-a:hover{
-    cursor: pointer;
-}
+
 
 @media screen and (max-width: 576px){
 

@@ -1,0 +1,85 @@
+/* Project section */
+.project-section-title{
+    display: flex;
+    justify-content: center;
+    margin-top: 48px;
+    font-size: 30px;
+    font-family: 'Megrim', system-ui;
+}
+
+.card-container{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    flex-wrap: wrap;
+    margin: 48px;
+    padding: 12px 0;
+    border-bottom: 1px solid #fff;
+
+    }
+
+.card-right-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.card-left-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    padding-bottom: 12px;
+}
+
+.card-left-container p{
+    font-size: 14px;
+}
+
+.project-img{
+    width: 100%;
+    height: auto;
+}
+
+.project-img:hover{
+filter: brightness(75%);
+box-shadow: 10px 5px 5px #7e7e7e;
+}
+
+.card-skill-container{
+display: flex;
+justify-content: space-around;
+flex-wrap: wrap;
+gap: 4px;
+}
+.card-skill{
+color: #ffffff;
+padding: 10px;
+font-weight: 400;
+background-color: transparent;
+border: 1px solid #fff;
+}
+
+.project-btns{
+    display: flex;
+    justify-content: center;
+    gap: 16px;
+    }
+    
+.demo-btn,
+.repo-btn{
+background-color: transparent;
+color: #ffffff;
+width: 80px;
+height: 30px;
+cursor: pointer;
+font-size: 13px;
+font-weight: 600;
+border: 1px solid #fff;
+
+}
+
+.demo-btn:hover,
+.repo-btn:hover{
+background-color: #d2d2d2;
+color: #fff;
+}
+
