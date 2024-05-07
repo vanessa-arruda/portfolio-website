@@ -14,12 +14,14 @@ export const Navbar = () => {
     }
 
   return (
-    <div className="nav-profile-container">
+    <>
         <div className="header-nav-container">
             <img src={myProfile.logo} alt="logo Vanessa Arruda" className="logo"/>
-            <h2 className="name">{myProfile.name}</h2>
-            <h1 className="job-title">{myProfile.jobTitle}</h1>
-            <h3 className="job-skills">{myProfile.mainSkills}</h3>
+            <div className="header-profile-container">
+                <h2 className="name">{myProfile.name}</h2>
+                <h1 className="job-title">{myProfile.jobTitle}</h1>
+                <h3 className="job-skills">{myProfile.mainSkills}</h3>
+            </div>
         </div>
         <nav className="navlinks-container">
             <a href="#about-me">About</a>
@@ -32,6 +34,6 @@ export const Navbar = () => {
             <a target="_blank" href="https://github.com/vanessa-arruda/" rel='noreferrer'><img src={gitHub} alt="GitHub logo"/></a>
             <a target="_blank" href="https://stackoverflow.com/users/13029438/vanessa-arruda" rel='noreferrer'><img src={stackOverFlow} alt="Stack Overflow logo"/></a>
         </div>
-    </div>
+    </>
   )
 }

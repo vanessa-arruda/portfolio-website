@@ -8,14 +8,14 @@
     flex-direction: column;
     color: #ffffff;
     margin-bottom: 48px;
-    height: 200px;
+    
   }
 
   .techSkills-title{
     display: flex;
     justify-content: center;
     align-items: center;
-    font-size: 24px;
+    font-size: 28px;
     font-family: "Megrim", system-ui;
   }
   
@@ -27,7 +27,6 @@
     flex-wrap: wrap;
     color: #ffffff;
     margin: 24px 48px;
-    
   }
     
   /* .skill-class{
@@ -46,7 +45,7 @@
 }
 
 .skill-class p:hover{
-  font-size: 32px;
+  font-size: 24px;
   cursor:crosshair;
 }
 
@@ -62,4 +61,53 @@
   color: #fff;
 
 } */
+
+@media screen and (max-width: 768px){
+  .techSkills-container{
+    display: flex;
+    flex-direction: column;
+    color: #ffffff;
+    margin-bottom: 48px;
+    
+  }
+
+  .techSkills-title{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 28px;
+    font-family: "Megrim", system-ui;
+    color: #ffffff;
+  }
   
+  .techSkills-list {
+    display: flex;
+    justify-content: center;
+    justify-content:center;
+    gap: 32px;
+    flex-wrap: wrap;
+    color: #ffffff;
+    margin: 24px 0px;
+  }
+    
+  /* .skill-class{
+    display: flex;
+    background-color: transparent;
+    color: #ffffff;
+    text-align: center;
+    justify-content: center;
+    gap: 8px;
+    width: 100%;
+  } */
+
+  .skill-class p{
+    font-size: 16px;
+    transition: font-size 0.8s;
+  }
+
+  .skill-class p:hover{
+    font-size: 14px;
+    cursor:crosshair;
+  }
+
+}

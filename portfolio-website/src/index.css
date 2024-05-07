@@ -33,16 +33,7 @@ body{
   font-size: 18px;
   text-align: justify;
 } */
-
-.special-text{
-  color:#60acf9;
-}
-
-.version-text{
-  color: aquamarine;
-}
-
-.portfolio-repo-btn{
+/* .portfolio-repo-btn{
   border: none;
   background-color: #db84d1;
   color: #fff;
@@ -51,182 +42,12 @@ body{
   cursor: pointer;
   font-size: 18px;
   margin-bottom: 12px;
-}
-
-
+} */
 
 @media screen and (max-width: 576px){
-  /* Tech Skills section */
-  .techSkills-container{
-    display: flex;
-    flex-direction: column;
-    margin: 12px 0 0 0;
-    justify-content: center;
-    align-items: center;
-    background-color: rgb(234, 229, 235);
-  }
-
-  .techSkills-title{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 40%;
-    font-size: 28px;
-    color: #7c47c7;
-  }
-
-  .techSkills-list {
-    display: flex;
-    justify-content: space-between;
-    flex-wrap: wrap;
-    gap: 5px;
-    width: 85%;
-    align-items: center;
-    color: #000000;
-    font-size: 22px;
-    margin-bottom: 38px;
-  }
-
-  .techSkills-list span{
-    padding: 4px;
-  }
-
-  .js-bg{
-    background-color: rgb(103, 126, 215);
-    color: #fff;
-    text-align: center;
-  }
-
-  .react-bg{
-    background-color: rgb(255, 161, 129);
-    color: #fff;
-    text-align: center;
-  }
-
-  .git-bg{
-    background-color: rgb(100, 203, 133);
-    color: #fff;
-    text-align: center;
-  }
-
-  .node-bg{
-    background-color: rgb(125, 201, 255);
-    color: #fff;
-    text-align: center;
-  }
-
   /* Portfolio section */
-
   .portfolio-section-sub-container p{
     font-size: 18px;
     font-weight: 300;
   }
-
-  /* projects section */
-
-  .project-all-container{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    margin: 24px 0;
-  }
-
-  .project-title-container h1{
-    font-size: 32px;
-  }
-
-  .project-img{
-    max-height: 300px;
-  }
-  .project-content-container{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items:center;
-    flex-wrap: wrap;
-    width: 80%;
-    margin: 0;
-  }
-
-  .project-content-container h3{
-    font-size: 20px;
-  }
-
-  .project-content-container p{
-    font-size: 16px;
-    text-align: justify;
-  }
-  .project-skills-container{
-    font-size: 16px;
-  }
-  .project-skills{
-    color: #434343;
-    padding: 10px;
-    font-weight: 600;
-  }
-  .project-btns{
-    display: flex;
-    gap: 20px;
-    padding: 16px;
-  }
-  .demo-btn,
-  .repo-btn{
-    font-size: 14px;
-  }
-}
-
-@media screen and (min-width: 577px){
-  /* Project section */
-
-  .project-all-container{
-    display: flex;
-    margin: 40px 0;
-  }
-
-  .project-title-container{
-    display: flex;
-    justify-content: center;
-    margin-top: 44px;
-  }
-
-  .project-img-container{
-    display: flex;
-    justify-content: center;
-    width: 50%;
-  }
-
-  .project-img{
-    max-width: 90%;
-    max-height: 90%;
-    box-shadow: 10px 5px 5px #7e7e7e;
-  }
-
-  .project-content-container{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items:start;
-    flex-wrap: wrap;
-    width: 50%;
-    margin-left: 8px;
-  }
-
-  .project-content-container h3{
-    font-size: 28px;
-  }
-  .project-skills-container{
-    display: flex;
-    justify-content: space-between;
-    flex-wrap: wrap;
-  }
-  .project-skills{
-    color: #434343;
-    padding: 10px;
-    font-weight: 600;
-  }
-  .project-btns{
-    display: flex;
-    gap: 20px;
-    padding: 12px;
-  }
-}
+} 

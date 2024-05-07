@@ -1,0 +1,137 @@
+.project-main-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 24px;
+    height: 500px;
+    }
+.flip-card{
+    position: relative;
+    width: 100%;
+    height: 80%;
+    transform-style: preserve-3d;
+    transition: transform 0.5s;
+    padding-bottom: 20px;
+    
+}
+.flip-card-inner {
+    transform-style: preserve-3d;
+    
+}
+.flip-card.flipped {
+    transform: rotateY(180deg);
+}
+.card-front,
+.card-back {
+    display: flex;
+    position: absolute;
+    backface-visibility: hidden;
+    top: 0;
+}
+.card-back{
+    transform: rotateY(180deg);
+
+}
+.card-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    text-align: center;
+    font-size: 12px;
+}
+.card-content h3{
+    font-size: 18px;
+}
+.project-img{
+    width: 60%;
+}
+.project-img:hover{
+filter: brightness(75%);
+}
+.back-content{
+    display: flex;
+    align-items: center;
+}
+.description{
+    display: flex;
+    align-items: center;
+    width: 50%;
+}
+.skills-container{
+display: flex;
+justify-content: space-around;
+flex-wrap: wrap;
+gap: 4px;
+}
+.skills{
+color: #ffffff;
+padding: 10px;
+font-weight: 400;
+background-color: transparent;
+border: 1px solid #fff;
+}
+.project-btns{
+    display: flex;
+    justify-content: center;
+    gap: 16px;
+    }
+.flip-button-front{
+    width:100px;
+    height: 40px;
+    background-color: transparent;
+    color:#fff;
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    top: 55%;
+    z-index: 1;
+}
+.flip-button-back{
+    width:100px;
+    height: 40px;
+    background-color: transparent;
+    color:#fff;
+    margin: 0;
+    padding: 0;
+}
+.flip-button-front:hover,
+.flip-button-back:hover{
+    /* width:100px;
+    height: 40px; */
+    background-color: transparent;
+    color:#fff;
+}
+.demo-btn,
+.repo-btn{
+background-color: transparent;
+padding-top: 4px;
+color: #ffffff;
+width: 80px;
+height: 30px;
+cursor: pointer;
+font-size: 13px;
+font-weight: 600;
+border: 1px solid #fff;
+margin-bottom: 8px;
+}
+
+.demo-btn:hover,
+.repo-btn:hover{
+background-color: #da966f;
+color: #fff;
+}
+
+@media screen and (max-width: 768px){
+    .project-img{
+        width: 65%;
+    }
+    .description{
+        display: flex;
+        align-items: center;
+        width: 70%;
+    }
+    
+}
+
