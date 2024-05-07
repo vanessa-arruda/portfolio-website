@@ -1,4 +1,4 @@
-import "./navbar.css";
+import "src/components/navbar/navbar.css";
 import linkedIn from "../../../public/icons/linkedin.svg";
 import gitHub from "../../../public/icons/github.svg";
 import stackOverFlow from "../../../public/icons/stack-overflow.svg";
@@ -26,8 +26,8 @@ export const Navbar = () => {
         <nav className="navlinks-container">
             <a href="#about-me">About</a>
             <a href="#projects-title">Projects</a>
-            <a href="mailto:vanessasouza@gmail.com">Contact</a> 
-            <a href="../../../public/CV-vanessa-arruda-2024.pdf"target="_blank" rel='noreferrer'>Download CV</a>
+            <a href="#footer">Contact</a> 
+            <a href="/CV-vanessa-arruda-2024.pdf"target="_blank" rel='noreferrer'>Download CV</a>
         </nav>
         <div className="nav-icons">
             <a target="_blank" href="https://www.linkedin.com/in/arrudavanessa/" rel='noreferrer'><img src={linkedIn} alt="LinkedIn logo"/></a>

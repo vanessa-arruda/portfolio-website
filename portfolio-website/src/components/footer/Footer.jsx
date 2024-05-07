@@ -1,11 +1,11 @@
-import "../footer/footer.css"
+import "src/components/footer/footer.css"
 import { FaGithub, FaLinkedin } from "react-icons/fa";
 import { AiOutlineMail } from "react-icons/ai";
 export const Footer = () => {
     
 
     return(
-    <footer className="footer-container">
+    <footer className="footer-container" id="footer">
         <p>Simply designed in <p className="key-words">Figma</p> and coded in <p className="key-words">Visual Studio Code</p>. Built with <p className="key-words">React</p> framework and pure <p className="key-words">CSS</p> for styles and animations, deployed with <p className="key-words">Netlify</p>.</p>
         <p>Contact me</p>
         <div className="footer-icons">

@@ -1,4 +1,4 @@
-import "./techskills.css";
+import "src/components/techskills/techskills.css";
 export const TechSkills = () => {
 
 //showcase handle of objects in React/JSX    

@@ -1,9 +1,9 @@
-import { TechSkills } from "./components/techskills/TechSkills"
-import { About } from "./components/about/About"
-import { Project } from "./components/projects/Project"
-import { Footer } from "./components/footer/Footer"
-import { Navbar } from "./components/navbar/Navbar"
-import "./app.css"
+import { TechSkills } from "src/components/techskills/TechSkills"
+import { About } from "src/components/about/About"
+import { Project } from "src/components/projects/Project"
+import { Footer } from "src/components/footer/Footer"
+import { Navbar } from "src/components/navbar/Navbar"
+import "src/app.css"
 
 // import { Portfolio } from "./components/PortfolioSection"
 // icons library

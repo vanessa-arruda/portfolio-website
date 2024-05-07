@@ -37,7 +37,7 @@
 }
 .name{
     font-family: "Megrim", system-ui;
-    font-size: 48px;
+    font-size: 36px;
     margin: 0;
     padding: 0;
     color: #005c8b;
@@ -47,7 +47,7 @@
 .job-title{
     font-family: "Inter", sans-serif;
     font-weight: 200;
-    font-size: 28px;
+    font-size: 24px;
     color: #000000;
 }
 

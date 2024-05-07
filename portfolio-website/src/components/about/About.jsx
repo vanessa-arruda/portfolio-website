@@ -1,5 +1,5 @@
 
-import "./about.css"
+import "src/components/about/about.css"
 
 export const About = () => {
 
@@ -13,10 +13,10 @@ export const About = () => {
     digital experiences, using all the recent technologies.`;
 
     return (
-        <header className="header-main-container">
+        <header className="header-main-container" id="about-me">
             <div className="header-top-profile-container">
                 <div className="header-photo-container">
-                    <img id="about-me" src="/images/myphoto-whitebg.png" className="header-photo" alt="Vanessa's photo"/>
+                    <img src="/images/myphoto-whitebg.png" className="header-photo" alt="Vanessa's photo"/>
                 </div>
             </div>
             <div className="about-text-container">

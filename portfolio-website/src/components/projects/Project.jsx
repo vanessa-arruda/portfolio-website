@@ -1,5 +1,5 @@
-import '../projects/project.css'
-import ProjectCard from '../projectCard/ProjectCard';
+import 'src/components/projects/project.css'
+import ProjectCard from 'src/components/projectCard/ProjectCard';
 
 export const Project = () => {
 
