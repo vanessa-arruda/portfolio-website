@@ -5,9 +5,18 @@
 
 body{
   margin: 0;
-  background-color: #003f5f;
+  background-color: #002c42;
   color: #f0f0f0;
   font-family: 'Inter', sans-serif;
+}
+
+h2{
+  font-size: 30px;
+  font-family: 'Megrim', system-ui;
+}
+
+h3{
+  margin: 24x 0;
 }
 /* 
 .portfolio-section-container{

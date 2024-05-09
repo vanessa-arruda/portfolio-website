@@ -20,18 +20,17 @@
 
 .navlinks-container a{
     color: #000000;
-    font-family: "Inter", sans-serif;
     font-weight: 500;
     font-size: 20px;
     width: 100%;
     transition:
-    background-color 0.5s ease-in,
+    background-color 0.3s ease-in,
     color 1s;
     
 }
 
 .navlinks-container a:hover{
-    background-color: #003f5f;
+    background-color: #002c42;
     color: #f4f4f4;
     
 }

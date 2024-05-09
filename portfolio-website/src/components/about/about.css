@@ -1,19 +1,13 @@
 /* google font Megrim - 400 */
 @import url('https://fonts.googleapis.com/css2?family=Megrim&display=swap');
-/* google font Inter - 100 to 900*/
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Megrim&display=swap');
 
 .header-main-container{
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    color: #fff;
-    background-color: #003f5f;
     margin: 48px 0px;
 }
-
-
 .header-top-profile-container{
     display: flex;
     flex-direction: column;
@@ -28,7 +22,7 @@
 
 .header-photo{
     width: 246px;
-    border: 8px solid #fff;
+    border: 8px solid rgb(255, 255, 255, 0.9);
 }
 .about-text-container{
     display: flex;
@@ -47,7 +41,6 @@
     font-size: 16px;
     text-align: justify;
     width: 100%;
-    font-family: "Inter", sans-serif;;
     font-weight: 300;
 }
 

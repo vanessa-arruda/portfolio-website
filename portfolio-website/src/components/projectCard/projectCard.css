@@ -33,7 +33,7 @@
     transform: rotateY(180deg);
 
 }
-.card-content {
+.card-content{
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -41,13 +41,16 @@
     text-align: center;
     font-size: 12px;
 }
+
 .card-content h3{
     font-size: 18px;
 }
 .project-img{
     width: 60%;
+    border: 8px solid rgb(255, 255, 255, 0.9);
 }
-.project-img:hover{
+.project-img:hover,
+.card-content:hover .project-img{
 filter: brightness(75%);
 }
 .back-content{
@@ -119,7 +122,7 @@ margin-bottom: 8px;
 
 .demo-btn:hover,
 .repo-btn:hover{
-background-color: #da966f;
+background-color: rgb(255, 255, 255, 0.5);
 color: #fff;
 }
 

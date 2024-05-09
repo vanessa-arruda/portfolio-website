@@ -18,13 +18,6 @@ const ProjectCard = ({project}) => {
         <div className='flip-card-inner'>
           <div className='card-front'>
             <div className='card-content'>
-              <button className='flip-button-front' onClick={handleCardFlip}>
-                <IconContext.Provider value={{ size: "40px" }}>
-                  <div>
-                    <FaRotate />
-                  </div>
-                </IconContext.Provider>
-              </button>
               <h3>{project.name}</h3>
               <div className='project-btns'>
                 <a target='_blank' rel='noreferrer' href={project.demo_link} className='demo-btn'>
@@ -34,6 +27,13 @@ const ProjectCard = ({project}) => {
                   View code
                 </a>
               </div>
+              <button className='flip-button-front' onClick={handleCardFlip}>
+                <IconContext.Provider value={{ size: "40px", className: "flip-btn" }}>
+                  <div>
+                    <FaRotate />
+                  </div>
+                </IconContext.Provider>
+              </button>
               <img className='project-img' src={project.img} alt='project screenshot' />
             </div>
           </div>

@@ -1,7 +1,7 @@
 import "src/components/navbar/navbar.css";
-import linkedIn from "../../../public/icons/linkedin.svg";
-import gitHub from "../../../public/icons/github.svg";
-import stackOverFlow from "../../../public/icons/stack-overflow.svg";
+import { FaGithub, FaLinkedin } from "react-icons/fa";
+import { AiOutlineMail } from "react-icons/ai";
+import { IconContext } from "react-icons";
 
 
 export const Navbar = () => {
@@ -10,7 +10,7 @@ export const Navbar = () => {
         name: "Vanessa Arruda",
         jobTitle: "Fullstack Developer",
         mainSkills: "JavaScript | React | Node JS | Python",
-        logo: "/my-logos/VA-logo-color.png",
+        logo: "src/assets/my-logos/VA-logo-color.png",
     }
 
   return (
@@ -29,10 +29,14 @@ export const Navbar = () => {
             <a href="#footer">Contact</a> 
             <a href="/CV-vanessa-arruda-2024.pdf"target="_blank" rel='noreferrer'>Download CV</a>
         </nav>
-        <div className="nav-icons">
-            <a target="_blank" href="https://www.linkedin.com/in/arrudavanessa/" rel='noreferrer'><img src={linkedIn} alt="LinkedIn logo"/></a>
-            <a target="_blank" href="https://github.com/vanessa-arruda/" rel='noreferrer'><img src={gitHub} alt="GitHub logo"/></a>
-            <a target="_blank" href="https://stackoverflow.com/users/13029438/vanessa-arruda" rel='noreferrer'><img src={stackOverFlow} alt="Stack Overflow logo"/></a>
+        <div>
+            <IconContext.Provider value={{ color: "#000000", size: "25px" }}>
+                <div className="nav-icons">
+                    <a href="mailto: adm.vanessasouza@gmail.com"><AiOutlineMail /></a>
+                    <a href="https://github.com/vanessa-arruda/" rel='noreferrer' target="_blank"><FaGithub /></a>
+                    <a href="https://www.linkedin.com/in/arrudavanessa/" rel='noreferrer' target="_blank"><FaLinkedin /></a>
+                </div>
+            </IconContext.Provider>
         </div>
     </>
   )
