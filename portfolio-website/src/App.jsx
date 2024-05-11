@@ -3,7 +3,7 @@ import { About } from "src/components/about/About"
 import { Project } from "src/components/projects/Project"
 import { Footer } from "src/components/footer/Footer"
 import { Navbar } from "src/components/navbar/Navbar"
-import "/src/app.css"
+import "./app.css"
 
 // import { Portfolio } from "./components/PortfolioSection"
 // icons library
