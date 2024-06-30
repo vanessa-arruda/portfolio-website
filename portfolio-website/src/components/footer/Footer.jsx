@@ -1,4 +1,4 @@
-import "src/components/footer/footer.css"
+import "@/components/footer/footer.css"
 import { FaGithub, FaLinkedin } from "react-icons/fa";
 import { AiOutlineMail } from "react-icons/ai";
 export const Footer = () => {
@@ -6,7 +6,7 @@ export const Footer = () => {
 
     return(
     <footer className="footer-container" id="footer">
-        <p>Simply designed in <p className="key-words">Figma</p> and coded in <p className="key-words">Visual Studio Code</p>. Built with <p className="key-words">React</p> framework and pure <p className="key-words">CSS</p> for styles and animations, deployed with <p className="key-words">Netlify</p>.</p>
+        <p>Simply designed in <span className="key-words">Figma</span> and coded in <span className="key-words">Visual Studio Code</span>. Built with <span className="key-words">React</span> framework and pure <span className="key-words">CSS</span> for styles and animations, deployed with <span className="key-words">Netlify</span>.</p>
         <p>Contact me</p>
         <div className="footer-icons">
             <a href="mailto: adm.vanessasouza@gmail.com"><AiOutlineMail /></a>
