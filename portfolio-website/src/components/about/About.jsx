@@ -1,5 +1,6 @@
 
 import "./about.css"
+import myphoto from "@/assets/images/myphoto-whitebg.png"
 
 export const About = () => {
 
@@ -16,7 +17,7 @@ export const About = () => {
         <header className="header-main-container" id="about-me">
             <div className="header-top-profile-container">
                 <div className="header-photo-container">
-                    <img src="src/assets/images/myphoto-whitebg.png" className="header-photo" alt="Vanessa's photo"/>
+                    <img src={myphoto} className="header-photo" alt="Vanessa's photo"/>
                 </div>
             </div>
             <div className="about-text-container">
