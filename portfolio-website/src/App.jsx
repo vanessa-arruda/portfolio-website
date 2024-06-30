@@ -3,7 +3,7 @@ import { About } from "@/components/about/About"
 import { Project } from "@/components/projects/Project"
 import { Footer } from "@/components/footer/Footer"
 import { Navbar } from "@/components/navbar/Navbar"
-import "@/app.css"
+import "./app.css"
 
 export const App = () => {
 

@@ -1,4 +1,4 @@
-import '@/components/projectCard/projectCard.css'
+import './projectCard.css'
 import { useState } from 'react';
 import PropTypes from 'prop-types';
 import { FaRotate } from "react-icons/fa6";

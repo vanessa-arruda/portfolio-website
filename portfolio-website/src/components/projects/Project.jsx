@@ -1,4 +1,4 @@
-import "@/components/projects/project.css";
+import "./project.css";
 import ProjectCard from "@/components/projectCard/ProjectCard";
 import recycleappimage from "@/assets/projects-ss/recycle-app.jpeg";
 import moviemdbimage from "@/assets/projects-ss/project-movie-mdb.jpeg";

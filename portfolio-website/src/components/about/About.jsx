@@ -1,5 +1,5 @@
 
-import "@/components/about/about.css"
+import "./about.css"
 
 export const About = () => {
 

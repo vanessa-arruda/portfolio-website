@@ -1,4 +1,4 @@
-import "@/components/footer/footer.css"
+import "./footer.css"
 import { FaGithub, FaLinkedin } from "react-icons/fa";
 import { AiOutlineMail } from "react-icons/ai";
 export const Footer = () => {

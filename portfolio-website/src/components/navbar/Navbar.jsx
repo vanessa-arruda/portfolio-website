@@ -1,4 +1,4 @@
-import "@/components/navbar/navbar.css";
+import "./navbar.css";
 import { FaGithub, FaLinkedin } from "react-icons/fa";
 import { AiOutlineMail } from "react-icons/ai";
 import { IconContext } from "react-icons";
