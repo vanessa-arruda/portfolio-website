@@ -1,0 +1,122 @@
+/* google font Megrim - 400 */
+@import url('https://fonts.googleapis.com/css2?family=Megrim&display=swap');
+/* google font Inter - 100 to 900*/
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Megrim&display=swap');
+.logo{
+    max-width: 350px;
+    min-width: 200px;
+    height: auto;
+    padding: 0;
+    margin: 0;
+}
+.navlinks-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 48px 0px;
+    gap: 20px;
+}
+
+.navlinks-container a{
+    color: #000000;
+    font-weight: 500;
+    font-size: 20px;
+    width: 100%;
+    transition:
+    background-color 0.3s ease-in,
+    color 1s;
+    
+}
+
+.navlinks-container a:hover{
+    background-color: #002c42;
+    color: #f4f4f4;
+    
+}
+.name{
+    font-family: "Megrim", system-ui;
+    font-size: 36px;
+    margin: 0;
+    padding: 0;
+    color: #005c8b;
+    font-weight: 700;
+}
+
+.job-title{
+    font-family: "Inter", sans-serif;
+    font-weight: 200;
+    font-size: 24px;
+    color: #000000;
+}
+
+.job-skills{
+    font-family: "Inter", sans-serif;
+    font-size: 14px;
+    color: #faa882;
+}
+
+/* buttons */
+.nav-icons{
+    display: flex;
+    justify-content: space-evenly;
+    padding-bottom: 8px;
+    margin-top: 50%;
+    gap: 16px
+}
+
+.nav-icons img{
+    width: 35px;
+}
+a:hover{
+    cursor: pointer;
+}
+
+/* screen md */
+
+@media screen and (max-width: 768px){
+        
+    .header-nav-container{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding-top: 12px;
+    }
+    .navlinks-container{
+        flex-direction: row;
+        margin: 8px 0px;
+        gap: 8px;
+    }
+    .logo{
+        max-width: 150px;
+        min-width: 100px;
+        height: auto;
+        padding: 0;
+        margin: 0;
+    }
+
+    .nav-icons img{
+        width: 30px;
+    }
+
+    .nav-icons{
+        display: none;
+    }
+
+    .name{
+        font-size: 26px;
+    }
+
+    .job-title{
+        font-size: large;
+        font-weight: 400;
+    }
+    .job-skills{
+        font-size: 12px;
+    }
+
+    .navlinks-container a{
+        font-size: 14px;
+    }
+
+}

@@ -1,0 +1,11 @@
+/* Project section */
+
+.project-section{
+    width: 100%;
+}
+
+.project-section-title{
+    display: flex;
+    justify-content: center;
+}
+

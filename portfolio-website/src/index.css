@@ -1,13 +1,27 @@
+/* google font Megrim - 400 */
+@import url('https://fonts.googleapis.com/css2?family=Megrim&display=swap');
+/* google font Inter - 100 to 900*/
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Megrim&display=swap');
+
 body{
   margin: 0;
-  background: #f2f2f2;
-  color: #494949;
-  font-family: Helvetica, sans-serif;
+  background-color: #002c42;
+  color: #f0f0f0;
+  font-family: 'Inter', sans-serif;
 }
 
+h2{
+  font-size: 30px;
+  font-family: 'Megrim', system-ui;
+}
+
+h3{
+  margin: 24x 0;
+}
+/* 
 .portfolio-section-container{
   display: flex;
-  background-color: #393939;
+  background-color: #ffffff;
   color: #ffff;
   margin: 0;
 }
@@ -27,17 +41,8 @@ body{
 .portfolio-section-sub-container p{
   font-size: 18px;
   text-align: justify;
-}
-
-.special-text{
-  color:#60acf9;
-}
-
-.version-text{
-  color: aquamarine;
-}
-
-.portfolio-repo-btn{
+} */
+/* .portfolio-repo-btn{
   border: none;
   background-color: #db84d1;
   color: #fff;
@@ -46,325 +51,12 @@ body{
   cursor: pointer;
   font-size: 18px;
   margin-bottom: 12px;
-}
-
-
-/* Tech Skills section */
-.techSkills-container{
-  display: flex;
-  margin: 12px 0 0 0;
-  justify-content: center;
-  background-color: rgb(234, 229, 235);
-  min-height: 500px;
-}
-
-.techSkills-title{
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  width: 40%;
-  font-size: 36px;
-  color: #7c47c7;
-}
-
-.techSkills-list {
-  display: flex;
-  justify-content: space-between;
-  flex-wrap: wrap;
-  gap: 5px;
-  width: 50%;
-  align-items: center;
-  color: #000000;
-  font-size: 26px;
-  margin: 32px;
-}
-
-.techSkills-list span{
-  padding: 10px;
-}
-
-.js-bg{
-  background-color: rgb(103, 126, 215);
-  color: #fff;
-  text-align: center;
-}
-
-.react-bg{
-  background-color: rgb(255, 161, 129);
-  color: #fff;
-  text-align: center;
-}
-
-.git-bg{
-  background-color: rgb(100, 203, 133);
-  color: #fff;
-  text-align: center;
-}
-
-.node-bg{
-  background-color: rgb(125, 201, 255);
-  color: #fff;
-  text-align: center;
-}
-
-/* Project section */
-
-.project-all-container{
-  display: flex;
-  justify-content: space-around;
-  margin: 40px 0;
-}
-
-.project-title-container{
-  display: flex;
-  justify-content: center;
-  margin-top: 32px;
-}
-
-.project-title-container h1{
-  font-size: 36px;
-}
-
-.project-img-container{
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  max-width: 32%;
-  height:auto;
-  
-}
-
-.project-img{
-  box-shadow: 10px 5px 5px #7e7e7e;
-}
-
-.project-img:hover{
-  filter: brightness(75%);
-  box-shadow: 10px 5px 5px #7e7e7e;
-}
-
-.project-content-container{
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  flex-wrap: wrap;
-  width: 60%;
-  margin-left: 8px;
-  margin-right: 24px;
-}
-
-.project-content-container h3{
-  font-size: 30px;
-}
-
-.project-content-container p{
-  max-width: 600px;
-  flex-wrap: wrap;
-  font-size: 18px;
-}
-.project-skills-container{
-  display: flex;
-  justify-content: start;
-  flex-wrap: wrap;
-}
-.project-skills{
-  color: #434343;
-  padding: 10px;
-  font-weight: 600;
-}
-.project-btns{
-  display: flex;
-  gap: 20px;
-  padding: 12px;
-}
-.demo-btn,
-.repo-btn{
-  border-radius: 20px;
-  border: none;
-  background-color: #7c47c7;
-  color: #fff;
-  padding: 14px;
-  gap: 8px;
-  cursor: pointer;
-}
-
-.demo-btn:hover,
-.repo-btn:hover{
-  background-color: #ce81e9;
-}
+} */
 
 @media screen and (max-width: 576px){
-  /* Tech Skills section */
-  .techSkills-container{
-    display: flex;
-    flex-direction: column;
-    margin: 12px 0 0 0;
-    justify-content: center;
-    align-items: center;
-    background-color: rgb(234, 229, 235);
-  }
-
-  .techSkills-title{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 40%;
-    font-size: 28px;
-    color: #7c47c7;
-  }
-
-  .techSkills-list {
-    display: flex;
-    justify-content: space-between;
-    flex-wrap: wrap;
-    gap: 5px;
-    width: 85%;
-    align-items: center;
-    color: #000000;
-    font-size: 22px;
-    margin-bottom: 38px;
-  }
-
-  .techSkills-list span{
-    padding: 4px;
-  }
-
-  .js-bg{
-    background-color: rgb(103, 126, 215);
-    color: #fff;
-    text-align: center;
-  }
-
-  .react-bg{
-    background-color: rgb(255, 161, 129);
-    color: #fff;
-    text-align: center;
-  }
-
-  .git-bg{
-    background-color: rgb(100, 203, 133);
-    color: #fff;
-    text-align: center;
-  }
-
-  .node-bg{
-    background-color: rgb(125, 201, 255);
-    color: #fff;
-    text-align: center;
-  }
-
   /* Portfolio section */
-
   .portfolio-section-sub-container p{
     font-size: 18px;
     font-weight: 300;
   }
-
-  /* projects section */
-
-  .project-all-container{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    margin: 24px 0;
-  }
-
-  .project-title-container h1{
-    font-size: 32px;
-  }
-
-  .project-img{
-    max-height: 300px;
-  }
-  .project-content-container{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items:center;
-    flex-wrap: wrap;
-    width: 80%;
-    margin: 0;
-  }
-
-  .project-content-container h3{
-    font-size: 20px;
-  }
-
-  .project-content-container p{
-    font-size: 16px;
-    text-align: justify;
-  }
-  .project-skills-container{
-    font-size: 16px;
-  }
-  .project-skills{
-    color: #434343;
-    padding: 10px;
-    font-weight: 600;
-  }
-  .project-btns{
-    display: flex;
-    gap: 20px;
-    padding: 16px;
-  }
-  .demo-btn,
-  .repo-btn{
-    font-size: 14px;
-  }
-}
-
-@media screen and (min-width: 577px){
-  /* Project section */
-
-  .project-all-container{
-    display: flex;
-    margin: 40px 0;
-  }
-
-  .project-title-container{
-    display: flex;
-    justify-content: center;
-    margin-top: 44px;
-  }
-
-  .project-img-container{
-    display: flex;
-    justify-content: center;
-    width: 50%;
-  }
-
-  .project-img{
-    max-width: 90%;
-    max-height: 90%;
-    box-shadow: 10px 5px 5px #7e7e7e;
-  }
-
-  .project-content-container{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items:start;
-    flex-wrap: wrap;
-    width: 50%;
-    margin-left: 8px;
-  }
-
-  .project-content-container h3{
-    font-size: 28px;
-  }
-  .project-skills-container{
-    display: flex;
-    justify-content: space-between;
-    flex-wrap: wrap;
-  }
-  .project-skills{
-    color: #434343;
-    padding: 10px;
-    font-weight: 600;
-  }
-  .project-btns{
-    display: flex;
-    gap: 20px;
-    padding: 12px;
-  }
-}
+} 

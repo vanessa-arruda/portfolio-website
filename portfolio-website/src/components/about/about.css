@@ -1,0 +1,52 @@
+/* google font Megrim - 400 */
+@import url('https://fonts.googleapis.com/css2?family=Megrim&display=swap');
+
+.header-main-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 48px 0px;
+}
+.header-top-profile-container{
+    display: flex;
+    flex-direction: column;
+    min-width: 100%;
+}
+.header-photo-container{
+    margin-top: 40px;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+.header-photo{
+    width: 246px;
+    border: 8px solid rgb(255, 255, 255, 0.9);
+}
+.about-text-container{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 48px;
+    justify-content: center;
+}
+
+.about-text-container h2{
+    font-size: 28px;
+    text-align: center;
+    width: 100%;
+    font-family: "Megrim", system-ui;
+}
+.about-text-container p{
+    font-size: 16px;
+    text-align: justify;
+    width: 100%;
+    font-weight: 300;
+}
+
+
+@media screen and (max-width: 768px){
+    .about-text-container p{
+        font-size: 14px;
+    }
+}
